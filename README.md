@@ -9,11 +9,6 @@
 
 ![Logo](/images/image_2024-06-23_12-54-27.png)
 
-
-- Visit : https://client.warpcast.com/v2/user-by-username?username=YOUR_USERNAME (Replace YOUR_USERNAME with your farcaster username)
-- Copy the FID
-
-![Logo2](/images/image_2024-06-23_13-11-18.png)
 ## Deployment
 
 - Download [Termius](https://termius.com/download/windows) or [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
@@ -31,7 +26,7 @@ Now enter this command :
 ```bash
 curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 ```
-After that, it will ask for Ethereum RPC, then Optimism RPC and at last FID . Paste one by one
+After that, it will ask for Ethereum RPC, Optimism RPC and then your farcaster username. Paste one by one
 
 ![Logo4](/images/photo_2024-06-23_13-21-23.jpg)
 

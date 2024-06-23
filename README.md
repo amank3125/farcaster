@@ -50,15 +50,22 @@ It means, your node is operational.
 
 Ans : Yes, that is why you are asked to  buy VPS, all these things will continue to happen in your VPS even after shutting down your PC / closing Termius or Putty App
 
-#### 2) How can I again enter to my Farcaster node screen?
+#### 2) I have 16 gb ram in my PC, I do not want to buy VPS to run this node. Is it fine?
+
+Ans : Yes, if you can run your PC all the time (24 hrs in a day 😁) without internet disruption . Actually it is not possible, that is why it is better to buy a VPS.
+
+#### 3) I have 2 gb ram in my PC, But here the requirement is 16 GB. Then how can I run this node?
+
+Ans : That is why you need to buy VPS of 16 GB. Even your pc has 2 gb ram but still you can run this node if u buy a VPS of 16 GB RAM.
+
+#### 4) How can I again enter to my Farcaster node screen?
 
 Ans : You need to run this command `screen -r farcaster` if you have followed my guide.
 
-
-#### 3) My node is getting stopped, what to do?
+#### 5) My node is getting stopped, what to do?
 
 Ans : Use this command `cd ~/hubble && ./hubble.sh upgrade`
 
-#### 4) I'm facing this issue `crontab is not installed. Please install crontab first` . What to do?
+#### 6) I'm facing this issue `crontab is not installed. Please install crontab first` . What to do?
 
 Ans : Use this command `sudo apt install cron` and then again paste `curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash`

@@ -11,7 +11,7 @@
 
 ## Deployment
 
-- Download [Termius](https://termius.com/download/windows) or [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- Download [Termius](https://termius.com/download/windows) (I used termius) or [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 - Connect your VPS then paste this command
 
 ```bash

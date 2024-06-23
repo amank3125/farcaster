@@ -10,13 +10,14 @@
 ![Logo](/images/image_2024-06-23_12-54-27.png)
 
 
-- Visit : https://client.warpcast.com/v2/user-by-username?username=YOUR_USERNAME
+- Visit : https://client.warpcast.com/v2/user-by-username?username=YOUR_USERNAME (Replace YOUR_USERNAME with your farcaster username)
 - Copy the FID
 
 ![Logo2](/images/image_2024-06-23_13-11-18.png)
 ## Deployment
 
-To deploy this project run
+- Download [Termius](https://termius.com/download/windows) or [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- Connect your VPS then paste this command
 
 ```bash
 wget https://raw.githubusercontent.com/dxzenith/farcaster/main/node.sh && chmod +x node.sh && ./node.sh

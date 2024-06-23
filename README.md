@@ -42,3 +42,23 @@ Boom, Your node is started !! After some times, you will see something like this
 It means, your node is operational.
 
 - Now press ```Ctrl+A+D``` to detach from the screen session safely
+
+
+## FAQ
+
+#### 1) Can I shutdown my PC after running this node?
+
+Ans : Yes, that is why you are asked to  buy VPS, all these things will continue to happen in your VPS even after shutting down your PC / closing Termius or Putty App
+
+#### 2) How can I again enter to my Farcaster node screen?
+
+Ans : You need to run this command `screen -r farcaster` if you have followed my guide.
+
+
+#### 3) My node is getting stopped, what to do?
+
+Ans : Use this command `cd ~/hubble && ./hubble.sh upgrade`
+
+#### 4) I'm facing this issue `crontab is not installed. Please install crontab first` . What to do?
+
+Ans : Use this command `sudo apt install cron` and then again paste `curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash`

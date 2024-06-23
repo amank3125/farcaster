@@ -10,8 +10,9 @@
 ![Logo](/images/image_2024-06-23_12-54-27.png)
 
 ## Deployment
+https://github.com/dxzenith/farcaster/assets/161211651/d044e0a5-88e6-4dbd-b137-725b295ddf3b
 
-- Download [Termius](https://termius.com/download/windows) (I used termius) or [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- Download [Termius](https://termius.com/download/windows) (I used termius for running node, but recorded this video in gitpod. Don't use gitpod)
 - Connect your VPS then paste this command
 
 ```bash

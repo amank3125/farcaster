@@ -1,19 +1,4 @@
 
-## Prerequisites
-
-- First, Buy A VPS which has 16 GB of RAM , 4 CPU cores or vCPUs, 40 GB of free storage
-- Then, Visit [Infura](https://app.infura.io/)
-- Setup Ethereum Mainnet and Optimism Mainnet RPC
-- Copy Ethereum Mainnet & Optimism Mainnet RPC Endpoints
-
-
-![Logo](/images/image_2024-06-23_12-54-27.png)
-
-## Deployment
-https://github.com/dxzenith/farcaster/assets/161211651/d044e0a5-88e6-4dbd-b137-725b295ddf3b
-
-- Download [Termius](https://termius.com/download/windows) (I used termius for running node, but recorded this video in gitpod. Don't use gitpod)
-- Connect your VPS then paste this command
 
 ```bash
 wget https://raw.githubusercontent.com/dxzenith/farcaster/main/node.sh && chmod +x node.sh && ./node.sh
@@ -43,20 +28,6 @@ It means, your node is operational.
 
 - Now press ```Ctrl+A+D``` to detach from the screen session safely
 
-
-## FAQ
-
-#### 1) Can I shutdown my PC after running this node?
-
-Ans : Yes, that is why you are asked to  buy VPS, all these things will continue to happen in your VPS even after shutting down your PC / closing Termius or Putty App
-
-#### 2) I have 16 gb ram in my PC, I do not want to buy VPS to run this node. Is it fine?
-
-Ans : Yes, if you can run your PC all the time (24 hrs in a day 😁) without internet disruption . Actually it is not possible, that is why it is better to buy a VPS.
-
-#### 3) I have 2 gb ram in my PC, But here the requirement is 16 GB. Then how can I run this node?
-
-Ans : That is why you need to buy VPS of 16 GB. Even your pc has 2 gb ram but still you can run this node if u buy a VPS of 16 GB RAM.
 
 #### 4) How can I again enter to my Farcaster node screen?
 
